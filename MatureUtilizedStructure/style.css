@@ -1,0 +1,44 @@
+.colorfondo{
+
+    background-color:rgb(229, 229, 229);
+
+.centrardiv{
+
+  width: 680px; 
+  padding: 70px;
+  color: #33475b;
+}
+
+
+.element{
+    width: 559px;
+    height: 401px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+}
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+.clasefondo{
+
+  background-image: url(img/img_fondos/rueda.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+
+  
+}
