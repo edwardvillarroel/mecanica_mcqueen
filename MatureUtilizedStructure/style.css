@@ -1,12 +1,16 @@
+
 .colorfondo{
 
-    background-color:rgb(229, 229, 229);
+  background-color:rgb(197, 197, 197);
+
+    }
 
 .centrardiv{
-
-  width: 680px; 
-  padding: 70px;
+  margin: 0 auto;
   color: #33475b;
+  display: flex;
+  position: absolute;
+  margin-top: 500;
 }
 
 
@@ -40,8 +44,141 @@
   display: flex;
   align-items: flex-end;
   width: 100%;
-  height: 80px;
+  height: 100px;
   margin-top: 35.6%;
   border: black 2px solid ;
   color: #071fcf;
 }
+
+.asdf{
+  text-align: left;
+  padding-right: 300px;
+  
+}
+
+#descripcion{
+  text-align: center;
+  background-color: rgb(120, 156, 35);
+  color: rgb(0, 0, 0);
+  width: 850px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px; 
+  border-style: inset;
+  
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+
+  padding: 10;
+
+
+  border: 5px solid rgb(25, 25, 99);
+
+}
+
+
+
+.numeros{
+  display: flex;
+  width: 150px;
+  padding: 25px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 700px;
+  margin-left: 950px;
+  position: relative;
+}
+
+#uno{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  right: 50;
+}
+
+#dos{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border-style: solid;
+  position: absolute;
+
+}
+
+#tres{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border-style: solid;
+  position: relative;
+  left: 50;
+}
+
+#bienvenida{
+  text-align: center;
+  background-color: black;
+  height: 50;
+  color: white;
+
+}
+
+.impresion{
+  margin: auto;
+  margin-top: 10;
+  width: auto;
+  height: 800;
+  background-color:rgb(197, 197, 197);
+}
+
+.texto{
+  float: right;
+  width: 650;
+  margin-right: 20;
+  margin-top: 10;
+  height: 300;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+
+
+}
+
+.imagen{
+
+  
+}
+
+.imagen:hover {
+  transform: scale(1.01); /* Escala la imagen al 110% */
+}
+
+.persona{
+  position: relative;
+  bottom: 490;
+  left: 1105;
+  width: 800;
+  height: 530;
+
+
+}
+
+

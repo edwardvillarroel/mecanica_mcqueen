@@ -1,0 +1,29 @@
+    <div id="descripcion">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. A vel fugiat laborum saepe eum cupiditate est. Obcaecati, quibusdam magni repudiandae commodi fugiat ea. Dolorum dolor, dolore sed corrupti ea dignissimos.
+    </div>
+
+.centrardiv{
+
+  width: 680px; 
+  padding: 70px;
+  color: #33475b;
+  display: flex;
+}
+
+    $("#uno").click(function(){
+        $("#uno").fadeOut();
+        alert("Boton funciona con exito")
+    })
+
+
+$(document).ready(function(){
+    $("#uno").click(function(){
+        $("#uno").fadeOut();
+        alert("Boton funciona con exito");
+
+        // Esperar hasta que se cierre el alerta
+        $(document).one('click', function() {
+            $("#carouselExample").carousel('next'); // Pasar al siguiente slide del carrusel
+        });
+    });
+});
