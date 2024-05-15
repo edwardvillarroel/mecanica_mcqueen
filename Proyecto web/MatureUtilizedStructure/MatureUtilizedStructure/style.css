@@ -1,0 +1,153 @@
+
+.colorfondo{
+
+  background-color:rgb(197, 197, 197);
+
+    }
+
+.centrardiv{
+  color: #33475b;
+  float: inline-start;
+}
+
+
+.element{
+    width: 559px;
+    height: 401px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+}
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+
+.asdf{
+  text-align: left;
+  padding-right: 300px;
+  
+}
+
+#descripcion1{
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  width: 850px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px; 
+  border-style: inset;
+  
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+
+  padding: 10;
+
+
+  border: 5px solid rgb(0, 0, 0);
+
+}
+
+
+
+.numeros {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.numeros div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+h1.titulo {
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+
+}
+
+
+#bienvenida{
+  text-align: center;
+  background-color: black;
+  height: 50;
+  color: white;
+
+}
+
+.impresion{
+  display: block;
+  float: inline-end;
+  margin-top: 10;
+  background-color:rgb(197, 197, 197);
+}
+
+.texto{  
+  float:inline-end; 
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+}
+
+
+
+.imagen:hover {
+  transform: scale(1.01); /* Escala la imagen al 110% */
+}
+
+.imagen {
+  display: flexbox;
+  float: left;
+  width: 50%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.persona {
+  float: right;
+  width: 50%;
+  max-width: 1200px;
+}
+
+.errores {
+  background: red;
+  display: none;
+  font-size: 14px;
+  margin-top:-80px;
+  margin-left: 340px;
+  padding: 10px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
